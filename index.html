@@ -10,26 +10,178 @@
 
 <body>
     <div class="jumbotron">
-        <h1 class="display-3"><center>Welcome to MiTunes Music!</center></h1>
+        <h1 class="display-3"><center>Welcome to MiTunes Music Rentals!</center></h1>
         <p class="lead">
             <center>The best online music store you could visit is at your disposal.
                 <br> Keep scrolling and browsing and find out what MTMR has to offer.</center>
         </p>
         <p class="lead">
-            <center><a class="btn btn-primary btn-lg" href="#" role="button">Start Browsing</a></center>
+            <center><a href="#albums"><button>Let's Look At What's Already In Stock!</button></a></center>
         </p>
     </div>
-    <div class="container">
+    <div class="container" id="albums">
+        <h1><center><u>This Is What We Have In Stock At The Moment....</u></center></h1>
         <div class="row">
             <div class="col-md-3 col-xs-4">
-                <a href="#"><img src="img/1.%20jackson.jpg" class="img-thumbnail"></a>
+                <a href="#michael"><img src="img/1.%20jackson.jpg" class="img-thumbnail" id="jackson"></a>
+                <center><p>Invincible</p></center>
             </div>
             <br>
             <div class="col-md-3 col-xs-4">
-                <a href="#"><img src="img/2.%20khaled.jpg" class="img-thumbnail"></a>
+                <a href="#khaled"><img src="img/2.%20khaled.jpg" class="img-thumbnail"></a>
+                <center><p>Major Key</p></center>
             </div>
-            <br> </div>
+            <br> 
+            <div class="col-md-3 col-xs-4">
+                <a href="#tupac"><img src="img/3.%20shakur.jpg" class="img-thumbnail"></a>
+                <center><p>Still I Rise</p></center>
+            </div>
+                <br>              
+            <div class="col-md-3 col-xs-4">
+                <a href="#robin"><img src="img/4.%20thicke.png" class="img-thumbnail"></a>
+                <center><p>Blurred Lines</p></center>
+            </div>
+            <br>
+            <div class="col-md-3 col-xs-4">
+                <a href="#drake1"><img src="img/5.%20drake.jpg" class="img-thumbnail"></a>
+                <center><p>More Life</p></center>
+            </div>
+            
+            <div class="col-md-3 col-xs-4">
+                <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
+                <center><p>Coming Soon</p></center>
+            </div>
+            
+            <div class="col-md-3 col-xs-4">
+                <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
+                <center><p>Coming Soon</p></center>
+            </div>
+            
+            <div class="col-md-3 col-xs-4">
+                <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
+                <center><p>Coming Soon</p></center>
+            </div>
+            </div>
     </div>
+    
+<!--    Michael Jackson Renting Modal-->
+    <div id="michael" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Let's Start The Renting Process...</h2>
+        <center>
+        <div class="col-md-7 col-xs-4">
+            <img src="img/1.%20jackson.jpg" class="img-thumbnail">
+            </div>
+        </center>
+        <h2>Invincible</h2>
+        <p4>By Michael Jackson</p4><br>
+        <p4>Released in 2001<br></p4>
+        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
+        <p>Album Renting Price: <b id="mike">$10.00</b></p>
+        
+        <center><button>Rent &amp; Calculate</button></center>
+    </div>
+</div>
+    
+<!--DJ Khaled Renting Modal-->
+    <div id="khaled" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Let's Start The Renting Process...</h2>
+        <center>
+        <div class="col-md-7 col-xs-4">
+            <img src="img/2.%20khaled.jpg" class="img-thumbnail">
+            </div>
+        </center>
+        <h2>Major Key</h2>
+        <p4>By DJ Khaled</p4><br>
+        <p4>Released in 2016<br></p4>
+        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
+        <p>Album Renting Price: <b id="dj">$25.00</b></p>
+        
+        <center><button>Rent &amp; Calculate</button></center>
+    </div>
+</div>
+    
+<!--Tupac Shakur Renting Modal-->
+    <div id="tupac" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Let's Start The Renting Process...</h2>
+        <center>
+        <div class="col-md-7 col-xs-4">
+            <img src="img/3.%20shakur.jpg" class="img-thumbnail">
+            </div>
+        </center>
+        <h2>Still I Rise</h2>
+        <p4>By Tupac Shakur</p4><br>
+        <p4>Released in 1999<br></p4>
+        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
+        <p>Album Renting Price: <b id="shakur">$10.00</b></p>
+        
+        <center><button>Rent &amp; Calculate</button></center>
+    </div>
+    </div>
+        
+<!--Robin Thicke Renting Model-->
+        <div id="robin" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Let's Start The Renting Process...</h2>
+        <center>
+        <div class="col-md-7 col-xs-4">
+            <img src="img/4.%20thicke.png" class="img-thumbnail">
+            </div>
+        </center>
+        <h2>Blurred Lines</h2>
+        <p4>By Robin Thicke</p4><br>
+        <p4>Released in 2013<br></p4>
+        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
+        <p>Album Renting Price: <b id="rob">$20.00</b></p>
+        
+        <center><button>Rent &amp; Calculate</button></center>
+    </div>
+</div>
+    
+<!--Drake Renting Modal-->
+    <div id="drake1" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Let's Start The Renting Process...</h2>
+        <center>
+        <div class="col-md-7 col-xs-4">
+            <img src="img/5.%20drake.jpg" class="img-thumbnail">
+            </div>
+        </center>
+        <h2>More Life</h2>
+        <p4>By Drake</p4><br>
+        <p4>Released in 2017<br></p4>
+        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
+        <p2>Album Renting Price: <b id="drake2">$25.00</b></p2>
+        
+        <center><button>Rent &amp; Calculate</button></center>
+    </div>
+</div>
+    
+<!--Blank Albums-->
+    <div id="blank" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Ooops!!</h2>
+        <p>This album is not available yet!</p>
+    </div>
+</div>
+    
+<!--Blank Albums-->
+    <div id="blank" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Ooops!!</h2>
+        <p>This album is not available yet!</p>
+    </div>
+</div>
+
+    <!--Blank Albums-->
+    <div id="blank" class="modalDialog">
+    <div><a href="#close" title="Close" class="close">X</a>
+        	<h2>Ooops!!</h2>
+        <p>This album is not available yet!</p>
+    </div>
+</div>
 </body>
 
 </html>
