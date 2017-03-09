@@ -9,179 +9,396 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> </head>
 
 <body>
+    <center><img src="img/notes.gif" style="width: 1050px;"></center>
     <div class="jumbotron">
-        <h1 class="display-3"><center>Welcome to MiTunes Music Rentals!</center></h1>
+        <h1 class="display-3" style="font-size: 60px;"><center><img src="img/note.gif" >Welcome to MiTunes Music Rentals!<img src="img/note.gif"></center></h1>
         <p class="lead">
             <center>The best online music store you could visit is at your disposal.
                 <br> Keep scrolling and browsing and find out what MTMR has to offer.</center>
-        </p>
-        <p class="lead">
-            <center><a href="#albums"><button>Let's Look At What's Already In Stock!</button></a></center>
-        </p>
-    </div>
-    <div class="container" id="albums">
-        <h1><center><u>This Is What We Have In Stock At The Moment....</u></center></h1>
+            <br>
+            <p class="lead">
+                <center>
+                    <a href="#albums">
+                        <button>Let's Look At What's Already In Stock!</button>
+                    </a>
+                </center>
+            </p>
+    </div> <img src="img/mikejack.gif" width="15%" height="15%" align="left"><img src="img/mikejack.gif" align="center" width="15%"><img src="img/mikejack.gif" align="right" width="15%" height="15%">
+    <div class="container" id="albums" style="background-color: lightgray; border-radius: 15px;">
+        <h1><center>This Is What We Have In Stock At The Moment....</center></h1>
         <div class="row">
             <div class="col-md-3 col-xs-4">
                 <a href="#michael"><img src="img/1.%20jackson.jpg" class="img-thumbnail" id="jackson"></a>
-                <center><p>Invincible</p></center>
+                <center>
+                    <p>Invincible</p>
+                </center>
             </div>
             <br>
             <div class="col-md-3 col-xs-4">
-                <a href="#khaled"><img src="img/2.%20khaled.jpg" class="img-thumbnail"></a>
-                <center><p>Major Key</p></center>
-            </div>
-            <br> 
-            <div class="col-md-3 col-xs-4">
-                <a href="#tupac"><img src="img/3.%20shakur.jpg" class="img-thumbnail"></a>
-                <center><p>Still I Rise</p></center>
-            </div>
-                <br>              
-            <div class="col-md-3 col-xs-4">
-                <a href="#robin"><img src="img/4.%20thicke.png" class="img-thumbnail"></a>
-                <center><p>Blurred Lines</p></center>
+                <a href="#khaled"><img src="img/2.%20khaled.jpg" class="img-thumbnail" id="djkhal"></a>
+                <center>
+                    <p>Major Key</p>
+                </center>
             </div>
             <br>
             <div class="col-md-3 col-xs-4">
-                <a href="#drake1"><img src="img/5.%20drake.jpg" class="img-thumbnail"></a>
-                <center><p>More Life</p></center>
+                <a href="#tupac"><img src="img/3.%20shakur.jpg" class="img-thumbnail" id="tupacshak"></a>
+                <center>
+                    <p>Still I Rise</p>
+                </center>
             </div>
-            
+            <br>
+            <div class="col-md-3 col-xs-4">
+                <a href="#robin"><img src="img/4.%20thicke.png" class="img-thumbnail" id="robinthi"></a>
+                <center>
+                    <p>Blurred Lines</p>
+                </center>
+            </div>
+            <br>
+            <div class="col-md-3 col-xs-4">
+                <a href="#drake1"><img src="img/5.%20drake.jpg" class="img-thumbnail" id="drakemake"></a>
+                <center>
+                    <p>More Life</p>
+                </center>
+            </div>
             <div class="col-md-3 col-xs-4">
                 <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
-                <center><p>Coming Soon</p></center>
+                <center>
+                    <p>Coming Soon</p>
+                </center>
             </div>
-            
             <div class="col-md-3 col-xs-4">
                 <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
-                <center><p>Coming Soon</p></center>
+                <center>
+                    <p>Coming Soon</p>
+                </center>
             </div>
-            
             <div class="col-md-3 col-xs-4">
                 <a href="#blank"><img src="img/blank_disc.png" class="img-thumbnail"></a>
-                <center><p>Coming Soon</p></center>
+                <center>
+                    <p>Coming Soon</p>
+                </center>
             </div>
-            </div>
+        </div>
     </div>
-    
-<!--    Michael Jackson Renting Modal-->
+    <!--    Michael Jackson Renting Modal-->
     <div id="michael" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Let's Start The Renting Process...</h2>
-        <center>
-        <div class="col-md-7 col-xs-4">
-            <img src="img/1.%20jackson.jpg" class="img-thumbnail">
-            </div>
-        </center>
-        <h2>Invincible</h2>
-        <p4>By Michael Jackson</p4><br>
-        <p4>Released in 2001<br></p4>
-        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
-        <p>Album Renting Price: <b id="mike">$10.00</b></p>
-        
-        <center><button>Rent &amp; Calculate</button></center>
+        <div><a href="#close" title="Close" class="close">X</a>
+            <center>
+                <h2>Let's Start The Renting Process!</h2></center>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/1.%20jackson.jpg" class="img-thumbnail"> </div>
+            </center>
+            <h2>Invincible</h2>
+            <p4>By: Michael Jackson</p4>
+            <br>
+            <p4>Released in 2001 </p4>
+            <br>
+            <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4>
+            <br>
+            <p4>Album Renting Price: <span id="mike" value="10.00">$10.00</span></p4>
+            <p>Sales Tax: <span id="tax" value="0.07">$0.07</span></p>
+            <center>
+                <a href="#mjackson">
+                    <button>Rent &amp; Calculate</button>
+                </a>
+                <button id="sample_a_mj">Sample A Song From This Album</button>
+            </center>
+        </div>
     </div>
-</div>
-    
-<!--DJ Khaled Renting Modal-->
+    <!--DJ Khaled Renting Modal-->
     <div id="khaled" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Let's Start The Renting Process...</h2>
-        <center>
-        <div class="col-md-7 col-xs-4">
-            <img src="img/2.%20khaled.jpg" class="img-thumbnail">
-            </div>
-        </center>
-        <h2>Major Key</h2>
-        <p4>By DJ Khaled</p4><br>
-        <p4>Released in 2016<br></p4>
-        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
-        <p>Album Renting Price: <b id="dj">$25.00</b></p>
-        
-        <center><button>Rent &amp; Calculate</button></center>
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2>Let's Start The Renting Process!</h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/2.%20khaled.jpg" class="img-thumbnail"> </div>
+            </center>
+            <h2>Major Key</h2>
+            <p4>By: DJ Khaled</p4>
+            <br>
+            <p4>Released in 2016
+                <br> </p4>
+            <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4>
+            <br>
+            <p>Album Renting Price: <b id="dj">$25.00</b></p>
+            <center>
+                <a href="#djkhaled">
+                    <button>Rent &amp; Calculate</button>
+                </a>
+                <button id="sample_a_dj">Sample A Song From This Album</button>
+            </center>
+        </div>
     </div>
-</div>
-    
-<!--Tupac Shakur Renting Modal-->
+    <!--Tupac Shakur Renting Modal-->
     <div id="tupac" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Let's Start The Renting Process...</h2>
-        <center>
-        <div class="col-md-7 col-xs-4">
-            <img src="img/3.%20shakur.jpg" class="img-thumbnail">
-            </div>
-        </center>
-        <h2>Still I Rise</h2>
-        <p4>By Tupac Shakur</p4><br>
-        <p4>Released in 1999<br></p4>
-        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
-        <p>Album Renting Price: <b id="shakur">$10.00</b></p>
-        
-        <center><button>Rent &amp; Calculate</button></center>
+        <div><a href="#close" title="Close" class="close">X</a>
+            <center>
+                <h2>Let's Start The Renting Process!</h2></center>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/3.%20shakur.jpg" class="img-thumbnail"> </div>
+            </center>
+            <h2>Still I Rise</h2>
+            <p4>By: Tupac Shakur</p4>
+            <br>
+            <p4>Released in 1999
+                <br> </p4>
+            <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;</span> </p4>
+            <br>
+            <p>Album Renting Price: <b id="shakur">$10.00</b></p>
+            <center>
+                <a href="#tupacs">
+                    <button>Rent &amp; Calculate</button>
+                </a>
+                <button id="sample_a_tupac">Sample A Song From This Album</button>
+            </center>
+        </div>
     </div>
+    <!--Robin Thicke Renting Model-->
+    <div id="robin" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <center>
+                <h2>Let's Start The Renting Process!</h2></center>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/4.%20thicke.png" class="img-thumbnail"> </div>
+            </center>
+            <h2>Blurred Lines</h2>
+            <p4>By: Robin Thicke</p4>
+            <br>
+            <p4>Released in 2013
+                <br> </p4>
+            <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4>
+            <br>
+            <p>Album Renting Price: <b id="rob">$20.00</b></p>
+            <center>
+                <a href="#rthicke">
+                    <button>Rent &amp; Calculate</button>
+                </a>
+                <button id="sample_a_robin">Sample A Song From This Album</button>
+            </center>
+        </div>
     </div>
-        
-<!--Robin Thicke Renting Model-->
-        <div id="robin" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Let's Start The Renting Process...</h2>
-        <center>
-        <div class="col-md-7 col-xs-4">
-            <img src="img/4.%20thicke.png" class="img-thumbnail">
-            </div>
-        </center>
-        <h2>Blurred Lines</h2>
-        <p4>By Robin Thicke</p4><br>
-        <p4>Released in 2013<br></p4>
-        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
-        <p>Album Renting Price: <b id="rob">$20.00</b></p>
-        
-        <center><button>Rent &amp; Calculate</button></center>
-    </div>
-</div>
-    
-<!--Drake Renting Modal-->
+    <!--Drake Renting Modal-->
     <div id="drake1" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Let's Start The Renting Process...</h2>
-        <center>
-        <div class="col-md-7 col-xs-4">
-            <img src="img/5.%20drake.jpg" class="img-thumbnail">
-            </div>
-        </center>
-        <h2>More Life</h2>
-        <p4>By Drake</p4><br>
-        <p4>Released in 2017<br></p4>
-        <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4><br>
-        <p2>Album Renting Price: <b id="drake2">$25.00</b></p2>
-        
-        <center><button>Rent &amp; Calculate</button></center>
+        <div><a href="#close" title="Close" class="close">X</a>
+            <center>
+                <h2>Let's Start The Renting Process!</h2></center>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/5.%20drake.jpg" class="img-thumbnail"> </div>
+            </center>
+            <h2>More Life</h2>
+            <p4>By: Drake</p4>
+            <br>
+            <p4>Released in 2017
+                <br> </p4>
+            <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4>
+            <br>
+            <p2>Album Renting Price: <b id="drake2">$25.00</b></p2>
+            <center>
+                <a href="#drake3">
+                    <button>Rent &amp; Calculate</button>
+                </a>
+                <button id="sample_a_drake">Sample A Song From This Album</button>
+            </center>
+        </div>
     </div>
-</div>
-    
-<!--Blank Albums-->
-    <div id="blank" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Ooops!!</h2>
-        <p>This album is not available yet!</p>
-    </div>
-</div>
-    
-<!--Blank Albums-->
-    <div id="blank" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Ooops!!</h2>
-        <p>This album is not available yet!</p>
-    </div>
-</div>
-
     <!--Blank Albums-->
     <div id="blank" class="modalDialog">
-    <div><a href="#close" title="Close" class="close">X</a>
-        	<h2>Ooops!!</h2>
-        <p>This album is not available yet!</p>
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2>Ooops!!</h2>
+            <p>This album is not available yet!</p>
+        </div>
     </div>
-</div>
+    <!--Blank Albums-->
+    <div id="blank" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2>Ooops!!</h2>
+            <h3>This album is not available yet!</h3> </div>
+    </div>
+    <!--Blank Albums-->
+    <div id="blank" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2>Ooops!!</h2>
+            <h3>This album is not available yet!</h3> </div>
+    </div>
+    <!--Michael Jackson Checkout Modal-->
+    <div id="mjackson" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2><center>Calculations and Final Pricing</center></h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/1.%20jackson.jpg" class="img-thumbnail"> </div>
+            </center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Album Name</th>
+                        <th>Artist Name</th>
+                        <th>Total before Tax</th>
+                        <th>Sales Tax</th>
+                        <th>Grand Total w/ tax</th>
+                        <th>Issued Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="mjackson">1</th>
+                        <td>Invincible</td>
+                        <td>Michael Jackson</td>
+                        <td>$10.00</td>
+                        <td>$0.07</td>
+                        <td>$10.07</td>
+                        <td>March 9, 2017</td>
+                        <td>March 19, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--DJ Khaled Checkout Modal-->
+    <div id="djkhaled" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2><center>Calculations and Final Pricing</center></h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/2.%20khaled.jpg" class="img-thumbnail"> </div>
+            </center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Album Name</th>
+                        <th>Artist Name</th>
+                        <th>Total before Tax</th>
+                        <th>Sales Tax</th>
+                        <th>Grand Total w/ tax</th>
+                        <th>Issued Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="djkhaled">1</th>
+                        <td>Major Key</td>
+                        <td>DJ Khaled</td>
+                        <td>$25.00</td>
+                        <td>$0.07</td>
+                        <td>$25.07</td>
+                        <td>March 9, 2017</td>
+                        <td>March 19, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--Tupac Shakur Checkout Modal -->
+    <div id="tupacs" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2><center>Calculations and Final Pricing</center></h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/2.%20khaled.jpg" class="img-thumbnail"> </div>
+            </center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Album Name</th>
+                        <th>Artist Name</th>
+                        <th>Total before Tax</th>
+                        <th>Sales Tax</th>
+                        <th>Grand Total w/ tax</th>
+                        <th>Issued Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="tupacs">1</th>
+                        <td>Major Key</td>
+                        <td>DJ Khaled</td>
+                        <td>$25.00</td>
+                        <td>$0.07</td>
+                        <td>$25.07</td>
+                        <td>March 9, 2017</td>
+                        <td>March 19, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--Robin Thicke Checkout Modal-->
+    <div id="rthicke" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2><center>Calculations and Final Pricing</center></h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/4.%20thicke.png" class="img-thumbnail"> </div>
+            </center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Album Name</th>
+                        <th>Artist Name</th>
+                        <th>Total before Tax</th>
+                        <th>Sales Tax</th>
+                        <th>Grand Total w/ tax</th>
+                        <th>Issued Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="rthicke">1</th>
+                        <td>Blurred Lines</td>
+                        <td>Robin Thicke</td>
+                        <td>$25.00</td>
+                        <td>$0.07</td>
+                        <td>$25.07</td>
+                        <td>March 9, 2017</td>
+                        <td>March 19, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--Drake Checkout Modal-->
+    <div id="drake3" class="modalDialog">
+        <div><a href="#close" title="Close" class="close">X</a>
+            <h2><center>Calculations and Final Pricing</center></h2>
+            <center>
+                <div class="col-md-5 col-xs-4"> <img src="img/5.%20drake.jpg" class="img-thumbnail"> </div>
+            </center>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Album Name</th>
+                        <th>Artist Name</th>
+                        <th>Total before Tax</th>
+                        <th>Sales Tax</th>
+                        <th>Grand Total w/ tax</th>
+                        <th>Issued Date</th>
+                        <th>Return Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="drake3">1</th>
+                        <td>More Life</td>
+                        <td>Drake</td>
+                        <td>$25.00</td>
+                        <td>$0.07</td>
+                        <td>$25.07</td>
+                        <td>March 9, 2017</td>
+                        <td>March 19, 2017</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2017 Eddrick Butler</p>
+        <p>All Rights Reserved</p>
+    </footer>
 </body>
 
 </html>
