@@ -1,58 +1,62 @@
 img {
     cursor: pointer;
+    border-radius: 150px;
 }
 
-button {
-    border: 0;
-    background: #0087cc;
-    border-radius: 4px;
-    box-shadow: 0 5px 0 #006599;
-    color: #fff;
-    cursor: pointer;
-    font: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 12px 20px;
-    transition: all .1s linear;
-}
-
-button:active {
-    box-shadow: 0 2px 0 #006599;
-    transform: translateY(3px);
-}
-
-p {
-    font-size: 20px;
+#jackson{
+    transition: 2s;
+    border-radius: 150px;
 }
 
 #jackson:hover {
     transition: 2s;
-    transform: rotate3d(20, 40, 80, 90deg);
+    transform: rotateY(180deg);
+    border-radius: 2px;
+}
+
+#djkhal{
+    transition: 2s;
 }
 
 #djkhal:hover {
     transition: 2s;
-    transform: rotate3d(20, 40, 80, 90deg);
+    transform: rotateY(180deg);
+    border-radius: 2px;
+}
+
+#tupacshak{
+    transition: 2s;
 }
 
 #tupacshak:hover {
     transition: 2s;
-    transform: rotate3d(20, 40, 80, 90deg);
+    transform: rotateY(180deg);
+    border-radius: 2px;
+}
+
+#robinthi{
+    transition: 2s;
 }
 
 #robinthi:hover {
     transition: 2s;
-    transform: rotate3d(20, 40, 80, 90deg);
+    transform: rotateY(180deg);
+    border-radius: 2px;
+}
+
+#drakemake{
+    transition: 2s;
 }
 
 #drakemake:hover {
     transition: 2s;
-    transform: rotate3d(20, 40, 80, 90deg);
+    transform: rotateY(180deg);
+    border-radius: 2px;
 }
 
-.modalDialog {
+/*.modalDialog {
     position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Segoe UI;
     top: 0;
     right: 0;
     bottom: 0;
@@ -72,11 +76,11 @@ p {
 }
 
 .modalDialog > div {
-    width: 650px;
+    width: 1000px;
     position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    background: #fff;
+    margin: 5% auto;
+    /*padding: 5px 20px 13px 20px;*/
+    /*background: white;
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
@@ -104,3 +108,4 @@ p {
 .close:hover {
     background: #00d9ff;
 }
+*/*/
